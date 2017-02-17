@@ -1,11 +1,11 @@
 {
   "name": "blog",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "blog app on React and Redux",
   "main": "index.js",
   "repository": "https://github.com/dns2316/blog",
-  "author": "3 developers",
-  "license": "MIT",
+  "author": "github: dns2316, shashkovdanil, akhorevich, arhiwarius, andreymelkov",
+  "license": "GPL-3.0",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server"
