@@ -34,10 +34,10 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: ['css-loader', 'postcss-loader'],
+          use: ['css-loader', 'postcss-loader', 'sass-loader'],
         }),
       },
     ],

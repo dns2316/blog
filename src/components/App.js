@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import { Row, Col } from 'antd';
 // import Header from './header/Header'
 // import Footer from './footer/Footer'
-import './App.css';
+import '../styles/App.scss';
 
 class App extends Component {
 
