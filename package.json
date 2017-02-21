@@ -28,6 +28,8 @@
     ]
   },
   "dependencies": {
+    "antd": "^2.7.2",
+    "antd-init": "^2.0.4",
     "autoprefixer": "^6.7.4",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
