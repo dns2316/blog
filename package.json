@@ -4,8 +4,8 @@
   "description": "blog app on React and Redux",
   "main": "index.js",
   "repository": "https://github.com/dns2316/blog",
-  "author": "3 developers",
-  "license": "MIT",
+  "author": "dns2316",
+  "license": "GNU GPLv3",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server"
@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "antd": "^2.7.2",
-    "antd-init": "^2.0.4",
     "autoprefixer": "^6.7.4",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
