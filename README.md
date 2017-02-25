@@ -1,8 +1,8 @@
-###Simple blog 
+#Simple blog
 
 Simple blog based on webpack + node.js + react.js + mongodb + sass + postCSS + ant design + babel.js + redux
 
-## Usage
+##Usage
 
 install dependencies: yarn install<br/>
 start: yarn run start<br/>
