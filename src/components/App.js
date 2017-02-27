@@ -11,7 +11,7 @@ class App extends Component { // будем игнорить эту ошибку
     return (
       <div>
         <Row type="flex" justify="center">
-          <Col xs={24} sm={18} md={14} lg={16}>
+          <Col xs={24} sm={24} md={14} lg={16}>
             <BackTop>
               <div className="ant-back-top-inner">Вверх</div>
             </BackTop>
@@ -36,16 +36,17 @@ class App extends Component { // будем игнорить эту ошибку
                    <br /><Button id="infoBtnPost" type="primary">Подробнее</Button>
                 </div>
                 </Col>
-                <Col span={4}>
                 <div className="tagCloud">
-                  <div className="tagList">tag1 tag2 tag3 tag1 tag2 tag3 tag1 tag2 tag3</div>
+                  {/* <Col span={4}> */}
+                  <span>Облако тегов</span>
+                    <div className="tagList">tag1 tag2 tag3 tag1 tag2 tag3 tag1 tag2 tag3</div>
+                  {/* </Col> */}
                 </div>
-                </Col>
               </div>
-              <Footer />
             </div>
           </Col>
         </Row>
+        <Footer />
       </div>
     );
   }
